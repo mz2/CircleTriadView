@@ -673,7 +673,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="CQN-Kl-Z6T" customClass="MPCircleTriadView" customModule="CircleTriadView">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="CQN-Kl-Z6T" customClass="CircleTriadView" customModule="CircleTriadView">
                                 <rect key="frame" x="176" y="71" width="128" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="128" id="oZf-1B-dDA"/>

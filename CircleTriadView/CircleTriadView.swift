@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objc @IBDesignable public class MPCircleTriadView: NSView {
+@objc @IBDesignable public class CircleTriadView: NSView {
     
     @IBInspectable var shadowTint: NSColor = NSColor(calibratedRed: 0, green: 0, blue: 0, alpha: 1)  { didSet { self.needsDisplay = true } }
     @IBInspectable var lightFillColor: NSColor = NSColor(calibratedRed: 1, green: 1, blue: 1, alpha: 1)  { didSet { self.needsDisplay = true } }
