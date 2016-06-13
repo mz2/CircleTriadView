@@ -1,6 +1,12 @@
 # CircleTriadView [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-A NSView subclass that renders a triad of circles. Most things about the view are configurable directly in Interface Builder.
+A NSView subclass that renders a triad of circles.
+
+This is what the CircleTriadView looks like by default:
+
+![Example](./example.png)
+
+Most things about the view are configurable directly in Interface Builder: the fill gradient, shadowing, inset from the view's frame, etc. 
 
 #### INSTALLATION
 
@@ -69,8 +75,4 @@ Following these steps, the view will also get rendered in Interface Builder and 
 
 Take a look at the example CircleTriadViewExample project to see an example use of CircleTriadView using Interface Builder.
 
-#### EXAMPLE
-
-This is what the CircleTriadView looks like by default:
-
-![Example](./example.png)
+**NOTE!** The view's frame should be square.
